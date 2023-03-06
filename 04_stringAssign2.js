@@ -15,6 +15,8 @@ console.log(afterTrim.charAt(0),afterTrim.charAt(afterTrim.length-1));
 console.log("---------------3-----------------");
 var totalString = afterTrim.split(" ")
 console.log("Total number of words are :",totalString);
+var splitLength =totalString.length
+console.log(`Length of split ${splitLength}`);
 console.log("---------------4-----------------");
 console.log("Index of word good",afterTrim.indexOf('good'));
 var sliceResult = afterTrim.slice(22)

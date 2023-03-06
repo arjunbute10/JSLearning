@@ -4,7 +4,7 @@ function bestAnime() {
 }
 bestAnime();
 function favouriteCharacter() {
-    console.log("My favourite character is Levi Ackerman");
+    console.log("My favourite anime character is Levi Ackerman");
     
 }
 favouriteCharacter()
