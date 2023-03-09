@@ -40,5 +40,5 @@ let indexOf4 =arraysSeasonaFruits2[4]
 console.log(`The Index of 1 to 4 =${indexOf1} ${indexOf2} ${indexOf3} ${indexOf4}`);
 console.error(`-----------------------Last Three Word -----------------------------`);
 console.log(`The arrays are :- ${arraysSeasonaFruits2}`);
-let length=arraysSeasonaFruits2.slice(4)
+let length=arraysSeasonaFruits2.slice(arraysSeasonaFruits2.length-3)
 console.log(`The last Three words is ${length}`);
