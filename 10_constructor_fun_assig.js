@@ -1,11 +1,11 @@
 console.error(`-----------------------------------Function Constructor ----------------------------------------------`);
-function Bank (bankName,location,ifscCode,bacnchcCode) {
+function Bank (bankName,location,ifscCode,branchchcCode) {
 this.bankName = bankName
 this.location = location
 this.ifscCode = ifscCode
-this.bacnchcCode = bacnchcCode
+this.branchchcCode = branchchcCode
 this.result=function(){
- console.log(`Details of bank :- ${this.bankName} ${this.location} ${this.ifscCode} ${this.bacnchcCode}`);   
+ console.log(`Details of bank :- ${this.bankName} ${this.location} ${this.ifscCode} ${this.branchchcCode}`);   
 }
 }
 Bank.prototype.openTime= "9 AM Ist"
